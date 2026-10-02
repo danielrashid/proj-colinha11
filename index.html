@@ -681,7 +681,7 @@
               </div>
               <div class="overflow-hidden flex-grow">
                 <span class="text-[10px] uppercase font-bold text-emerald-700 tracking-wider flex items-center gap-1">
-                  <i class="fa-solid fa-circle-check"></i> Nossa Governadora
+                  <i class="fa-solid fa-circle-check"></i> ${item.id === 'governadora' ? 'Nossa Governadora' : 'Candidato confirmado'}
                 </span>
                 <p class="text-sm font-black text-slate-900 truncate leading-tight">${item.candidato.nomeUrna || item.candidato.nome}</p>
                 <p class="text-xs text-slate-600 truncate">${item.candidato.partido || item.candidato.siglaPartido || 'Partido'}</p>
